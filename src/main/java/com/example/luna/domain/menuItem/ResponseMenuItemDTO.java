@@ -1,6 +1,5 @@
-package com.example.luna.dto;
+package com.example.luna.domain.menuItem;
 
-import com.example.luna.entity.enums.ItemCategory;
 import java.math.BigDecimal;
 
 public record ResponseMenuItemDTO(

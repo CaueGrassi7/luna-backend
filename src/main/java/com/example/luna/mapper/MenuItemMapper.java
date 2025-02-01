@@ -1,8 +1,8 @@
 package com.example.luna.mapper;
 
-import com.example.luna.dto.RequestMenuItemDTO;
-import com.example.luna.dto.ResponseMenuItemDTO;
-import com.example.luna.entity.MenuItemEntity;
+import com.example.luna.domain.menuItem.RequestMenuItemDTO;
+import com.example.luna.domain.menuItem.ResponseMenuItemDTO;
+import com.example.luna.domain.menuItem.MenuItemEntity;
 
 public class MenuItemMapper {
 

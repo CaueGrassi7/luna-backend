@@ -1,8 +1,8 @@
-package com.example.luna.controller;
+package com.example.luna.controllers;
 
-import com.example.luna.dto.RequestMenuItemDTO;
-import com.example.luna.dto.ResponseMenuItemDTO;
-import com.example.luna.service.MenuItemService;
+import com.example.luna.domain.menuItem.RequestMenuItemDTO;
+import com.example.luna.domain.menuItem.ResponseMenuItemDTO;
+import com.example.luna.services.MenuItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

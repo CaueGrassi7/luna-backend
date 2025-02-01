@@ -1,6 +1,5 @@
-package com.example.luna.entity;
+package com.example.luna.domain.menuItem;
 
-import com.example.luna.entity.enums.ItemCategory;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;

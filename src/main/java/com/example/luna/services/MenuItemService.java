@@ -1,10 +1,10 @@
-package com.example.luna.service;
+package com.example.luna.services;
 
-import com.example.luna.dto.RequestMenuItemDTO;
-import com.example.luna.dto.ResponseMenuItemDTO;
-import com.example.luna.entity.MenuItemEntity;
+import com.example.luna.domain.menuItem.RequestMenuItemDTO;
+import com.example.luna.domain.menuItem.ResponseMenuItemDTO;
+import com.example.luna.domain.menuItem.MenuItemEntity;
 import com.example.luna.mapper.MenuItemMapper;
-import com.example.luna.repository.MenuItemRepository;
+import com.example.luna.repositories.MenuItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

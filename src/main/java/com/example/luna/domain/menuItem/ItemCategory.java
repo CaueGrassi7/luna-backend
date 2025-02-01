@@ -1,4 +1,4 @@
-package com.example.luna.entity.enums;
+package com.example.luna.domain.menuItem;
 
 public enum ItemCategory {
     BEVERAGE,
