@@ -18,16 +18,8 @@ public class PublicMenuController {
     @Autowired
     MenuItemService menuItemService;
 
-    @Autowired
-    UserRepository userRepository;
-
-//    @GetMapping
-//    public List<ResponseMenuItemDTO> getMenuItems() {
-//        return menuItemService.getAllMenuItems();
-//    }
-
     @GetMapping
-    public List<UserEntity> teste() {
-        return userRepository.findAll();
+    public List<ResponseMenuItemDTO> getMenuItems() {
+        return menuItemService.getAllMenuItems();
     }
 }
